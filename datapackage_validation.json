@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.365,
+  "time": 0.381,
   "errors": [],
   "tasks": [
     {
@@ -26,19 +26,31 @@
             },
             {
               "name": "cod_prestador",
-              "type": "integer"
+              "type": "integer",
+              "description": "Código do prestador de serviços",
+              "title": "Código do prestador",
+              "format": "default"
             },
             {
               "name": "nome_prestador",
-              "type": "string"
+              "type": "string",
+              "description": "Nome do prestador de serviços",
+              "title": "Nome do prestador",
+              "format": "default"
             },
             {
               "name": "municipio_prestador",
-              "type": "string"
+              "type": "string",
+              "description": "Município de origem do prestador de serviços",
+              "title": "Município do prestador",
+              "format": "default"
             },
             {
               "name": "uf_prestador",
-              "type": "string"
+              "type": "string",
+              "description": "Sigla da unidade federativa do prestador de serviços",
+              "title": "UF do prestador",
+              "format": "default"
             },
             {
               "name": "macro_regional_prestador",
@@ -83,7 +95,7 @@
           "rows": 17888
         }
       },
-      "time": 0.355,
+      "time": 0.363,
       "scope": [
         "hash-count-error",
         "byte-count-error",
