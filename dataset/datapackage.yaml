@@ -20,12 +20,24 @@ resources:
           format: default
         - name: cod_prestador
           type: integer
+          description: Código do prestador de serviços
+          title: Código do prestador
+          format: default
         - name: nome_prestador
           type: string
+          description: Nome do prestador de serviços
+          title: Nome do prestador
+          format: default
         - name: municipio_prestador
           type: string
+          description: Município de origem do prestador de serviços
+          title: Município do prestador
+          format: default
         - name: uf_prestador
           type: string
+          description: Sigla da unidade federativa do prestador de serviços
+          title: UF do prestador
+          format: default
         - name: macro_regional_prestador
           type: string
         - name: micro_regional_prestador
