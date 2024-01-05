@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.381,
+  "time": 0.371,
   "errors": [],
   "tasks": [
     {
@@ -54,7 +54,10 @@
             },
             {
               "name": "macro_regional_prestador",
-              "type": "string"
+              "type": "string",
+              "description": "Macrorregião de origem do prestador de serviços. A macrorregião é o espaço geográfico que envolve um conjunto de microrregiões agrupadas pela densidade demográfica, hierarquizado em função do nível de atenção primária, secundária e terciária à saúde com capacidade instalada",
+              "title": "Macrorregião do prestador",
+              "format": "default"
             },
             {
               "name": "micro_regional_prestador",
@@ -95,7 +98,7 @@
           "rows": 17888
         }
       },
-      "time": 0.363,
+      "time": 0.361,
       "scope": [
         "hash-count-error",
         "byte-count-error",
