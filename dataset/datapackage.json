@@ -4,7 +4,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "Relação de consultas de urgência realizadas por prestadores de serviçõs credenciados pelo Instituto no Estado de Minas Gerais.",
+      "description": "Relação de consultas de urgência realizadas por prestadores de serviçõs credenciados pelo Instituto no  Estado de Minas Gerais.\n",
       "dialect": {
         "delimiter": ";"
       },
