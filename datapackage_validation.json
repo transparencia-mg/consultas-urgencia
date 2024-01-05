@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.388,
+  "time": 0.363,
   "errors": [],
   "tasks": [
     {
@@ -72,7 +72,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Consultas de Urgência.",
         "stats": {
           "hash": "3aab06431b49c95a95afa3d88d8f4831",
           "bytes": 2283271,
@@ -80,7 +80,7 @@
           "rows": 17888
         }
       },
-      "time": 0.378,
+      "time": 0.353,
       "scope": [
         "hash-count-error",
         "byte-count-error",
