@@ -54,7 +54,7 @@
           {
             "name": "macro_regional_prestador",
             "type": "string",
-            "description": "Macrorregião de origem do prestador de serviços. A macrorregião é o espaço geográfico que envolve um conjunto de microrregiões agrupadas pela densidade demográfica, hierarquizado em função do nível de atenção primária, secundária e terciária à saúde com capacidade instalada",
+            "description": "Macrorregião de origem do prestador de serviços. A macrorregião é o espaço geográfico que envolve um  conjunto de microrregiões agrupadas pela densidade demográfica, hierarquizado em função do nível de atenção primária,  secundária e terciária à saúde com capacidade instalada\n",
             "title": "Macrorregião do prestador",
             "format": "default"
           },
