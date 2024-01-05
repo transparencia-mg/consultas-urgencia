@@ -2,7 +2,7 @@ name: consulta-urgencia
 owner_org: instituto-de-previdencia-dos-servidores-do-estado-de-minas-gerais-ipsemg
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: Relação de consultas de urgência realizadas por prestadores de serviçõs credenciados pelo Instituto no Estado de Minas Gerais.
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -15,6 +15,9 @@ resources:
       fields:
         - name: data_ref
           type: integer
+          description: Ano e mês de referência correspondente ao dado (aaaa_mm)
+          title: Data de referência
+          format: default
         - name: cod_prestador
           type: integer
         - name: nome_prestador
